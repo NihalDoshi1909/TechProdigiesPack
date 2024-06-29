@@ -1,0 +1,54 @@
+body{
+    /* background-image: linear-gradient(rgb(72, 70, 70),white,rgb(90, 88, 88));
+    padding: 40px 450px; */
+    /* overflow: hidden; */
+    background-color: rgb(210, 213, 214);
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.sigUpForm>form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+input{
+    background-color: rgb(99, 99, 99);
+    width: 20%;
+    height: 30px;
+    line-height: 10px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    /* margin-bottom: 20px; */
+    /* color: rgb(254, 0, 0); */
+}
+
+.sigUpForm>form>#submit{
+    margin-top: 20px;
+    width: 10%;
+    margin-left: 6%;
+    background: rgb(61, 71, 85);
+    color: white;
+}
+
+/* .sigUpForm{
+    margin-left: 30%;
+} */
+label{
+    /* color: rgba(255,255,255,0.8); */
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+.loginImg>img{
+    width: 100vw;
+    height: 100vh;
+    /* margin-left: -29%; */
+    position: absolute;
+    z-index: -100;
+    filter: blur(5px);
+}

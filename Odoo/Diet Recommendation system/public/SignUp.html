@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="sigUpForm">
+        <div class="loginImg">
+            <img
+                src="https://domf5oio6qrcr.cloudfront.net/medialibrary/6033/b62da0e5-ba4e-4daf-9991-3e4980cec535.jpg"
+                alt>
+        </div>
+        <form onsubmit="return validateSignUPForm()" action="/SignUp" method="get">
+            <h1>Sign Up</h1>
+            <label>First Name</label>
+            <input type="text" id="fn" placeholder="Only letters" required name="fname">
+            <br>
+            <label>Last Name</label>
+            <input type="text" id="ln" placeholder="Only letters" required name="lname">
+            <br>
+            Male<input type="radio" value="male" name="gender" style="height: 20px; margin-left:-2%; margin-top:-20px; margin-bottom:10px !important;">
+            Female<input type="radio" value="female" name="gender" style="height: 20px; margin-left:-2%; margin-top:-20px !important ;">
+            <br>
+            <label>Age</label>
+            <input type="number" id="age" placeholder="Only Numbers" required name="age">
+            <br>
+            <label>Weight</label>
+            <input type="text" id="Weight" placeholder="Only Numbers" required name="weight">
+            <br>
+            <label>Height</label>
+            <input type="text" id="Height" placeholder="Only Numbers" required name="height">
+            <br>
+            <label>Email</label>
+            <input type="text" id="e1" placeholder="XYZ.test@yahoo.co.in" required name="email">
+            <br>
+            <label>Contact Number</label>
+            <input type="text" id="n1" placeholder="10 digits needed" required name="contact">
+            <br>
+            <label>Password</label>
+            <input type="password" id="p1" placeholder="Minimum 8 letters and some special characters" required>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
